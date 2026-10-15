@@ -29,10 +29,6 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: set working folder
-        run: |
-          ls
-          cd wiki
       - name: Cache Quartz plugins
         uses: actions/cache@v5
         with:
@@ -41,11 +37,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-plugins-
       - name: Install Dependencies
-        run: npm ci
+        run: cd wiki; npm ci
       - name: Install Quartz plugins
-        run: npx quartz plugin install
+        run: cd wiki; npx quartz plugin install
       - name: Build Quartz
-        run: npx quartz build
+        run: cd wiki; npx quartz build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
