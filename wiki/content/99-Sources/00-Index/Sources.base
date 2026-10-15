@@ -3,7 +3,7 @@ views:
     name: View
     filters:
       and:
-        - file.folder == "99 - Sources/01 - Notes"
+        - file.folder == "99-Sources/01-Notes"
     order:
       - file.name
       - year
