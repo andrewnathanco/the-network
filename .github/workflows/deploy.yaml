@@ -37,11 +37,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-plugins-
       - name: Install Dependencies
-        run: cd wiki; npm ci
+        run: npm ci
       - name: Install Quartz plugins
-        run: cd wiki; npx quartz plugin install
+        run: npx quartz plugin install
       - name: Build Quartz
-        run: cd wiki; npx quartz build
+        run: npx quartz build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

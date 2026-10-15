@@ -1,2 +1,0 @@
-rm -rf /Users/andrew/Documents/projects/thesis/code/the-network/wiki/content
-cp -r '/Users/andrew/Library/Mobile Documents/iCloud~md~obsidian/Documents/Network' /Users/andrew/Documents/projects/thesis/code/the-network/wiki/content
