@@ -29,6 +29,10 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+      - name: set working folder
+        run: |
+          ls
+          cd wiki
       - name: Cache Quartz plugins
         uses: actions/cache@v5
         with:
