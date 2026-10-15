@@ -1,0 +1,1 @@
+> In networking, a black hole or sinkhole is a place in the network where incoming or outgoing traffic is discarded or "dropped" without informing the source that the data did not reach its intended recipient.

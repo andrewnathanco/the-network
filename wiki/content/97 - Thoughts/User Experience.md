@@ -1,0 +1,3 @@
+- Users care enough about privacy to complain, but not enough to use these network solutions like, [[FreeNet]]. 
+- The user experience has to match or be better than that of current centralized infrastructure and platforms.
+- How do you ensure common people won't have the same reaction as this [article](https://www.theguardian.com/technology/2009/nov/26/dark-side-internet-freenet)

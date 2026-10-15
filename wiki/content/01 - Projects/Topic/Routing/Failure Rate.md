@@ -1,0 +1,1 @@
+Could you use something similar to the bird sensor example here? [[[[Computation in Networks of Passively Mobile Finite-State Sensors.pdf#page=1&selection=101,0,101,27|Computation in Networks of Passively Mobile Finite-State Sensors, page 1]]]]

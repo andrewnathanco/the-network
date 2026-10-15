@@ -1,0 +1,3 @@
+### Mathematical models
+
+The traditional model is the [random geometric graph](https://en.wikipedia.org/wiki/Random_geometric_graph "Random geometric graph"). Early work included simulating ad hoc mobile networks on sparse and densely connected topologies. Nodes are firstly scattered in a constrained physical space randomly. Each node then has a predefined fixed cell size (radio range). A node is said to be connected to another node if this neighbor is within its radio range. Nodes are then moved (migrated away) based on a random model, using random walk or brownian motion. Different mobility and number of nodes present yield different route length and hence different number of multi-hops.

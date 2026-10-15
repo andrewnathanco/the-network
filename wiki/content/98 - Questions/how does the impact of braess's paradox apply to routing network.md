@@ -1,0 +1,5 @@
+> A classic example involves traffic in a road system, in which each driver picks a path that minimizes their travel time. With such routing, the [equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium "Nash equilibrium") routes can be longer than optimal for all drivers. In particular, [Braess's paradox](https://en.wikipedia.org/wiki/Braess's_paradox "Braess's paradox") shows that adding a new road can _lengthen_ travel times for all drivers. [link](https://en.wikipedia.org/wiki/Routing#Multiple_agents)
+
+if each individual node is in charge or routing optimally it's only goal is to use the fastest possible route. but if every node decides to use the fastest possible route, the route gets clogged with traffic. so sometimes choosing a less effective path is more optimal for everyone
+
+[nash's equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)

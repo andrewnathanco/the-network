@@ -1,0 +1,1 @@
+> A [network](https://en.wikipedia.org/wiki/Computer_networking "Computer networking") is said to be scalable if its performance does not deteriorate even if the network is very large. [link](https://en.wikipedia.org/wiki/Hyphanet#Scalability)

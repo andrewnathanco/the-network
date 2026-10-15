@@ -1,0 +1,2 @@
+- I'm having the thought that it's going to be very tricky to identify which, if any of these platforms have great usage because they are inherently decentralized and so don't track usage.
+- And so I might have to identify another metric for usage.

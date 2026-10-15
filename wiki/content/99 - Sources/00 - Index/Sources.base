@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.folder == "99 - Sources/01 - Notes"
+    order:
+      - file.name
+      - year
+      - percent-read
+    sort:
+      - property: percent-read
+        direction: ASC
+    columnSize:
+      file.name: 517
+      note.year: 72
